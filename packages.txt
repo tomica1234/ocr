@@ -1,0 +1,13 @@
+tesseract-ocr
+tesseract-ocr-fra
+tesseract-ocr-eng
+tesseract-ocr-jpn
+tesseract-ocr-script-jpan
+tesseract-ocr-lat
+tesseract-ocr-deu
+tesseract-ocr-ita
+libtesseract-dev
+libjpeg-dev
+libpng-dev
+libfreetype6-dev
+libtiff-dev

@@ -27,7 +27,7 @@ else:
                 text = tool.image_to_string(
                     img,
                     lang=lang,
-                    builder=pyocr.builders.TextBuilder(tesseract_layout=6)
+                    builder=pyocr.builders.TextBuilder()
                 )
                 output.write(f"--- Page {i+1} ---\n{text}\n\n".encode('utf-8'))
             output.seek(0)
@@ -53,7 +53,7 @@ else:
                 text = tool.image_to_string(
                     img,
                     lang=lang,
-                    builder=pyocr.builders.TextBuilder(tesseract_layout=6)
+                    builder=pyocr.builders.TextBuilder()
                 )
                 output.write(f"--- Page {i+1} ---\n{text}\n\n".encode('utf-8'))
             output.seek(0)
